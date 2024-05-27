@@ -7,5 +7,5 @@ class ChatProviders extends ChangeNotifier {
     Message(text: 'Sus lol?', fromWho: FromWho.me)
   ];
 
-  Future<void> sendMessage() async
+  Future<void> sendMessage() async {}
 }
